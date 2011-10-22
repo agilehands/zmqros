@@ -1,0 +1,18 @@
+################
+## ROS-ZMQ ##
+##################
+
+## Georgia Tech Humanoid Robotics Lab
+## Under Direction of Prof. Mike
+## HOMEPAGE: http://www.golems.org
+## GITHUB:   http://www.github.com/golems
+
+- git:
+    local-name: brics/libzmq
+    uri: https://github.com/zeromq/libzmq
+    version: master
+
+- git:
+    local-name: brics/zmqros
+    uri: https://github.com/agilehands/zmqros
+    version: master
