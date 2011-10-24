@@ -1,0 +1,19 @@
+<!-- This is mainly taken from ACH ROS implementation  -->
+
+<!-- ROS Manifest for ZMQ IPC Library -->
+
+<package>
+  <description brief="ROS interface to ZMQ IPC for Real-Time Robot Control">
+    ROS goop to send messages via ZMQ.
+  </description>
+  <author>Shaikh Sonny Aman/agilehands@gmail.com</author>
+  <license>BSD</license>
+	<url>http://amanpages.com</url>
+  <depend package="roscpp"/>
+  <depend package="zmq"/>
+  <versioncontrol type="git" url="https://github.com/agilehands/zmqros"/>
+  <export>
+    <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -lzmqros -lzmq -lrt -lpthread"/>
+  </export>
+  <review status="experimental"/>
+</package>
