@@ -10,7 +10,7 @@
   <license>BSD</license>
 	<url>http://amanpages.com</url>
   <depend package="roscpp"/>
-  <depend package="zmq"/>
+  <depend package="libzmq"/>
   <versioncontrol type="git" url="https://github.com/agilehands/zmqros"/>
   <export>
     <cpp cflags="-I${prefix}/include" lflags="-L${prefix}/lib -lzmqros -lzmq -lrt -lpthread"/>

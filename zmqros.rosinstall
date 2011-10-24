@@ -4,7 +4,7 @@
 
 - git:
     local-name: brics/libzmq
-    uri: https://github.com/zeromq/libzmq
+    uri: https://github.com/agilehands/libzmq
     version: master
 
 - git:
