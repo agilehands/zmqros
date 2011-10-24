@@ -9,7 +9,6 @@
   <author>Shaikh Sonny Aman/agilehands@gmail.com</author>
   <license>BSD</license>
 	<url>http://amanpages.com</url>
-  <depend package="roscpp"/>
   <depend package="libzmq"/>
   <versioncontrol type="git" url="https://github.com/agilehands/zmqros"/>
   <export>
