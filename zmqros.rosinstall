@@ -1,13 +1,13 @@
-################
+#############
 ## ROS-ZMQ ##
-##################
+#############
 
 - git:
-    local-name: brics/libzmq
-    uri: https://github.com/agilehands/libzmq
+    local-name: libzmq
+    uri: https://github.com/nicoh/zeromq2-1
     version: master
 
 - git:
-    local-name: brics/zmqros
+    local-name: zmqros
     uri: https://github.com/agilehands/zmqros
     version: master
